@@ -28,6 +28,20 @@ Run the following terraform projects in order.
 [Omniverse Instance](/terraform/aws//ovw-instance/README.md)
 
 
+Add cluster to local kubetctl
+```sh
+ # mac
+ bash ./aws-deploy-aws-setup.sh 
+```
+
+Add mongo db chart
+
+```sh
+helm install mongodb oci://registry-1.docker.io/bitnamicharts/mongodb
+
+
+```
+
 ### Next Steps Connect with MFE Project
 
 [MicroFrontEnds and Microservices Architecture](https://github.com/JamilOmar/mfe-template)
