@@ -1,0 +1,16 @@
+# Terraform files
+.terraform
+terraform.tfstate
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+.terraform.lock.hcl
+.aws
+*.DS_Store
+Thumbs.db
+terraform.tfvars
+.env
+certificates
+kubeconfig
+base64.txt
+install-packages-instance-ssm-output.json
