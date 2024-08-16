@@ -1,13 +1,17 @@
 
 
 ## Requirements
+
+
+<img src="./docs/images/nvidia.drawio.png" />
+
+
 - Aws Account
 - Aws Cli Installed
 - [Eksctl](https://docs.aws.amazon.com/emr/latest/EMR-on-EKS-DevelopmentGuide/setting-up-eksctl.html) 
 - Terraform Cli
 - Kubernetes Cli
 - helm charts
-- mkcert
 
 Run the following terraform projects in order.
 
